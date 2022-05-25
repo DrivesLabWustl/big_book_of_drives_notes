@@ -1,0 +1,28 @@
+# Personnel
+
+```{r, echo=FALSE}
+readr::read_csv(
+  "dat/personnel.csv", 
+  show_col_types = FALSE
+) -> x
+
+options(knitr.kable.NA = "")
+
+knitr::kable(
+  x,
+  ifelse(knitr::is_html_output(), "html", "latex"),
+  col.names = c(
+    "Category", 
+    "Title", 
+    "Last Name", 
+    "First Name", 
+    "Email", 
+    "Telephone", 
+    "Position", 
+    "Department"
+  )
+) -> x
+
+kableExtra::kable_styling(x, font_size = 9)
+```
+

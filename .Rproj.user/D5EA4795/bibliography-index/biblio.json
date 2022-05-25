@@ -56,11 +56,11 @@
             "issued": {
                 "date-parts": [
                     [
-                        2021
+                        2022
                     ]
                 ]
             },
-            "note": "R package version 0.24",
+            "note": "R package version 0.26",
             "title": "Bookdown: Authoring books and technical documents with r markdown",
             "title-short": "Bookdown",
             "type": "book"
@@ -77,17 +77,16 @@
             "issued": {
                 "date-parts": [
                     [
-                        2021
+                        2022
                     ]
                 ]
             },
-            "note": "R package version 1.37",
+            "note": "R package version 1.39",
             "title": "Knitr: A general-purpose package for dynamic report generation in r",
             "title-short": "Knitr",
             "type": "book"
         },
         {
-            "URL": "https://CRAN.R-project.org/package=rmarkdown",
             "author": [
                 {
                     "family": "Allaire",
@@ -138,7 +137,7 @@
                     ]
                 ]
             },
-            "note": "R package version 2.12",
+            "note": "https://github.com/rstudio/rmarkdown",
             "title": "Rmarkdown: Dynamic documents for r",
             "title-short": "Rmarkdown",
             "type": "book"
